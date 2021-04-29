@@ -1,0 +1,18 @@
+2021-04-26 16:46:26,363 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2021-04-26 17:11:47,790 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-04-27 09:18:49,031 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-04-27 10:26:57,441 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-04-27 16:57:12,937 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-04-29 09:02:21,125 [Worker-9: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-04-29 09:09:19,789 [Worker-21: Remove Repositories] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for [RepositoryHandle:Repository[C:\myjavaDev\myjavaWorkspace\.git]]
+2021-04-29 09:09:52,880 [Worker-13: Cloning from https://github.com/KTH-tead/myjavaWorkspace.git] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\myjavaDev\myjavaWorkspace\.git]
+2021-04-29 09:13:10,230 [Worker-13: Git Repository Change Scanner] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\myjavaDev\myjavaWorkspace\myjavaWorkspace\.git]
+2021-04-29 09:17:38,771 [Worker-21: Remove Repositories] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\myjavaDev\.git]
+2021-04-29 09:18:52,817 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-04-29 09:21:59,867 [Worker-8: Cloning from https://github.com/KTH-tead/myjavaWorkspace.git] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\myjavaDev\myjavaWorkspace\.git]
+2021-04-29 09:24:38,180 [Worker-6: Remove Repositories] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\myjavaDev\myjavaWorkspace\myjavaWorkspace\.git]
+2021-04-29 09:25:48,973 [Worker-8: C:\myjavaDev\myjavaWorkspace] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\myjavaDev\git\.git]
+2021-04-29 09:28:54,227 [Worker-6: Git Repository Change Scanner] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\myjavaDev\myjavaWorkspace\.git]
+2021-04-29 09:30:51,815 [Worker-6: Refreshing workspace] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\myjavaDev\myjavaWorkspace\.git]
+2021-04-29 09:35:19,330 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-04-29 10:14:55,272 [Worker-14: Git Repository Change Scanner] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\myjavaDev\git\git\.git]
