@@ -1,5 +1,5 @@
-GitRepositoriesView.GitDirectories=
-GitRepositoriesView.GitDirectories.relative=
+GitRepositoriesView.GitDirectories=C\:\\myjavaDev\\myjavaWorkspace\\.git;
+GitRepositoriesView.GitDirectories.relative=.git;
 RepositoryGroups.uuids=
 RepositorySearchDialogDeepSearch=true
 RepositorySearchDialogSearchPath=C\:\\myjavaDev\\myjavaWorkspace
