@@ -1,3 +1,3 @@
 # myjavaWorkspace
 
-<h1> JAVA Study</h1>
+<h2> JAVA Study</h2>
