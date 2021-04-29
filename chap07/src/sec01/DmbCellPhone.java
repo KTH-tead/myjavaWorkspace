@@ -6,20 +6,21 @@ public class DmbCellPhone extends CellPhone {
 	
 	//생성자
 	
-//	DmbCellPhone(String model,String color, int Channel) {
-//		this.model = model;
-//		this.color = color;
-//		this.channel = channel;
-//	}
+
 	
 	//메소드
 	
-	public DmbCellPhone(String model,String color) {
+	DmbCellPhone(String model,String color, int Channel) {
 		super(model,color);
-//		this ();
 		this.model = model;
 		this.color = color;
 	}
+	
+//	public DmbCellPhone(String model,String color) {
+//		super(model,color);
+//		this.model = model;
+//		this.color = color;
+//	}
 
 	void turnOnDmb( ) {
 		System.out.println("채널 : " + channel + "번 DMB 방송 수신을 시작합니다");
