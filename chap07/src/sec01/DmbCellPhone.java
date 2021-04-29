@@ -6,17 +6,19 @@ public class DmbCellPhone extends CellPhone {
 	
 	//생성자
 	
-	DmbCellPhone(String model,String color, int Channel) {
-		this.model = model;
-		this.color = color;
-		this.channel = channel;
-	}
+//	DmbCellPhone(String model,String color, int Channel) {
+//		this.model = model;
+//		this.color = color;
+//		this.channel = channel;
+//	}
 	
 	//메소드
 	
-	public DmbCellPhone() {
-		super();
-		// TODO Auto-generated constructor stub
+	public DmbCellPhone(String model,String color) {
+		super(model,color);
+//		this ();
+		this.model = model;
+		this.color = color;
 	}
 
 	void turnOnDmb( ) {

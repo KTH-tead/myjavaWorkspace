@@ -10,7 +10,7 @@ public class DmbCellPhoneExample {
 		System.out.println("모델:" +DmbCellPhone.model);
 		System.out.println("색깔:" +DmbCellPhone.color);
 		
-		//Dmbcellphone의 필드
+		//DmbcellPhone의 필드
 		System.out.println("채널:" +DmbCellPhone.channel);
 		
 		//CellPhone으로부터 상속바은 메소드 호출
