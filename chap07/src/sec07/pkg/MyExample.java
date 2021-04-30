@@ -56,20 +56,33 @@ public class MyExample {
 	      //sec07.pkg.Child01 cannot be cast to sec07.pkg.Child02
 	      //at sec07.pkg.MyExample.main(MyExample.java:52)
 		
-		 // 오류 해결 콛
+		 // 오류 해결 코드
 		 
-		 Child01 myChild0001;
+		 Child01 myChild0001 = null;
+		 Child02 myChild0002 = null;
+		 
 		 
 		 if (myParent01 instanceof Child01) {
 			 myChild0001 = (Child01) myParent01;
-		 } else {
-			 System.out.println("저장객체가 Child02 타입의 객체가 아닙니다.");
-			 myChild0001 =null;
+		 } else if ( myParent01 instanceof Child02) {
+			 
+			 myChild0002 = (Child02) myParent01;
 			 // return;
+		 } else {
+			 System.out.println("저장객체가 Child01/Child02 타입의 객체가 아닙니다.");
 		 }
 		 
 		 myChild0001.methodChild01();
 		
+		 if (myChild0001 != null) {
+	          myChild0001.methodChild01();
+	       } else if (myChild0002 != null) {
+	          myChild0002.methodChild02();
+	       } else {
+	          return ;
+	       }
+
+		 
 		 //myParent01 = new child02();
 		
 		
