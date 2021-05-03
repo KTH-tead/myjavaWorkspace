@@ -1,7 +1,6 @@
 package Exercise;
 
 import java.util.Scanner;
-<<<<<<< HEAD
 
 public class Exercise07 {
     public static void main(String[] args) {
@@ -144,4 +143,3 @@ public class Exercise07 {
      	scanner.close(); //Resource leak: 'scanner' is never closed 문구보고 추가.
 	}
 }
->>>>>>> f1a5ceb9e2e8ad093918602d0d0c7f2d5a55ee97
