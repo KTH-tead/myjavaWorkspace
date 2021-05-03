@@ -183,18 +183,23 @@ public class BankApplication {
  
         System.out.print("계좌번호: ");
         String ano = scanner.next();
+        //  print 된 이후에 입력되는 내용을 scanner로 접수
  
         System.out.print("계좌주: ");
         String owner = scanner.next();
+        // print 된 이후에 입력되는 내용을 scanner로 접수
+
  
         System.out.print("초기입금액: ");
         int balance = scanner.nextInt();
- 
+     // print 된 이후에 입력되는 내용을 scanner로 접수
+        
+        //계좌 정보를 저장할 객체 생성(생성자를 통해 입력값으로 필드 초기화)
         Account account = new Account(ano, owner, balance);
         
-        for(int i = 0; i < accountArray.length; i++) {
+        for(int i = 0; i < accountArray.length; i++) { // accountArray 배열 길이만큼 반복.)
             if(accountArray[i] == null) {
-                accountArray[i] = account;
+                accountArray[i] = account; 
                 System.out.println("결과: 계좌가 생성되었습니다.");
                 break;
             }
