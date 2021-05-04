@@ -1,6 +1,7 @@
 package sec16;
 
 import java.time.LocalDateTime;
+import java.time.temporal.ChronoUnit;
 
 //import java.time.Duration;
 //import java.time.LocalDateTime;
@@ -26,7 +27,21 @@ public class DateTimeCompareExample {
 	   }
 	   
 	   //---------------------
-	   
+	    System.out.println("[종료까지 남은 시간]");
+	    long remainYear = startDateTime.until(endDateTime, ChronoUnit.YEARS);
+	    long remainMonth = startDateTime.until(endDateTime, ChronoUnit.MONTHS);
+	    long remainDay = startDateTime.until(endDateTime, ChronoUnit.DAYS);
+	    long remainHour = startDateTime.until(endDateTime, ChronoUnit.HOURS);
+	    long remainMinute = startDateTime.until(endDateTime, ChronoUnit.MINUTES);
+	    long remainSecond = startDateTime.until(endDateTime, ChronoUnit.SECONDS);
+	    
+	    remainYear = ChronoUnit.YEARS.between(startDateTime, endDateTime);
+	    remainMonth = ChronoUnit.YEARS.between(startDateTime, endDateTime);
+	    remainDay = ChronoUnit.YEARS.between(startDateTime, endDateTime);
+	    remainHour = ChronoUnit.YEARS.between(startDateTime, endDateTime);
+	    remainSecond = ChronoUnit.YEARS.between(startDateTime, endDateTime);
+	    
+	    
 //      LocalDateTime startDateTime = LocalDateTime.of(2023, 4, 30, 9, 30, 0, 0);
 //      System.out.println("시작일: " + startDateTime);
 //      

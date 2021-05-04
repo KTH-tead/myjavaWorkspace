@@ -1,0 +1,49 @@
+* 와일드 카드 오류 이유
+      //오류가 발생되는 이유를 찾아보세요..
+
+      registerCourseStudentsms
+
+      RegisterCourse.registerCourseStudent(personCourse);       //(오류)
+      RegisterCourse.registerCourseStudent(workerCourse);       //(오류)
+      RegisterCourse.registerCourseStudent(studentCourse);
+      RegisterCourse.registerCourseStudent(highStudentCourse);
+      System.out.println();
+
+      RegisterCourse.registerCourseWorker(personCourse);          //(오류)
+      RegisterCourse.registerCourseWorker(workerCourse);
+      RegisterCourse.registerCourseWorker(studentCourse);       //(오류)
+      RegisterCourse.registerCourseWorker(highStudentCourse);    //(오류)
+
+
+
+
+
+챕터 9
+
+
+
+-----------
+
+챕터 9
+
+
+
+
+
+-------------------
+
+챕터 10
+
+
+--------------------
+챕터 11
+
+
+
+--------------------
+챕터 13
+
+
+
+---------------------
+챕터 15
