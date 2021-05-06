@@ -37,8 +37,25 @@ public class HashMapexample1 {
 		}
 		System.out.println();
 		
-		// 갹체 삭제
+		System.out.println("----------------");
 		
+
+		
+		// 갹체 삭제
+		if(map.containsKey("홍길동")){
+		
+			map.remove("홍길동");
+			System.out.println("총 Entry 수:" + map.size());
+			System.out.println("----------------");
+		    //breaks;
+		}
+//			
+//		Set<Map.Entry<String, Integer>> entrySet = map.entrySet();
+//		
+//		for (Map.Entry )
+			
+		
+		// 갹체 삭제
 		map.remove("홍길동");
 		System.out.println("총 Entry 수:" + map.size());
 		
