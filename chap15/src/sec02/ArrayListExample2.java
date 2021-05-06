@@ -10,9 +10,9 @@ public class ArrayListExample2 {
 			System.out.println(name);
 		}
 		
-		
-		list1.add("신상현");
-		list1.remove("홍길동");
+//		
+//		list1.add("신상현");
+//		list1.remove("홍길동");
 		
 		
 		List<Integer> list2 = Arrays.asList(1,2,3);

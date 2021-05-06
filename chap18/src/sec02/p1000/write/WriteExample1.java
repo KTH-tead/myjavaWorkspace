@@ -16,17 +16,17 @@ public class WriteExample1 {
 		
 		System.out.println("===============");
 		
-		byte[] data2 = "오후에회식입니다".getBytes("UT-8");
+		byte[] data2 = "오후에회식입니다".getBytes("UTF-8");
 		System.out.println(data2.length);
 		
 		
 		System.out.println(data1[1]);
-		System.out.println(data2[1]);//한글처리시에는 의미가 없습니다.
+		//System.out.println(data2[1]);//한글처리시에는 의미가 없습니다.
 		
 		for (int i =0 ; i<data1.length; i++) {
 			os1.write(data1[i]);
 		}
-		for (int i =0 ; i<data1.length; i++) {
+		for (int i =0 ; i<data2.length; i++) {
 			os2.write(data2[i]);
 		}
 		

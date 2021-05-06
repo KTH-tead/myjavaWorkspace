@@ -11,7 +11,7 @@ public class ArrayListExample {
 		list.add("Java");
 		list.add("JDBC");
 		list.add("Servlet/JSP");
-		list.add("2, Database");
+		list.add(2, "Database");
 		list.add("iBATIS");
 		
 		int size = list.size();
