@@ -1,4 +1,4 @@
-package chap15.sec02;
+package sec02;
 
 import java.util.Arrays;
 import java.util.List;
@@ -22,3 +22,6 @@ public class ArrayListExample2 {
 	}
 	
 }
+
+
+

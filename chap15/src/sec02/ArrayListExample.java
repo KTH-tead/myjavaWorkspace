@@ -1,4 +1,4 @@
-package chap15.sec02;
+package sec02;
 
 import java.util.ArrayList;
 import java.util.List;
