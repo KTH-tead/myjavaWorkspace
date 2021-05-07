@@ -1,4 +1,4 @@
-package sec0;
+package sec02;
 
 
 //자바 프로그램은 반드시 클래스 안에 작성해야 한다. 
