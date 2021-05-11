@@ -1,4 +1,4 @@
-package sec0;
+package sec02;
 
 public class IfDiceExample {
 	public static void main(String[] args) {

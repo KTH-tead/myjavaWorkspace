@@ -1,4 +1,4 @@
-package sec0;
+package sec03;
 
 public class WhileKeyControlExample {
 	public static void main(String[] args) throws Exception {

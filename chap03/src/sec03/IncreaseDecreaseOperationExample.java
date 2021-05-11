@@ -1,4 +1,4 @@
-package sec0;
+package sec03;
 
 public class IncreaseDecreaseOperationExample {
 

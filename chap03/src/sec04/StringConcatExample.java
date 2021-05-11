@@ -1,4 +1,4 @@
-package sec0;
+package sec04;
 
 public class StringConcatExample {
 	public static void main(String[] args) {
